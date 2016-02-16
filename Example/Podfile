@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'HYUIKit_Example', :exclusive => true do
+  pod 'HYUIKit', :path => '../'
+end
+
+target 'HYUIKit_Tests', :exclusive => true do
+  pod 'HYUIKit', :path => '../'
+
+  
+end
