@@ -1,0 +1,14 @@
+PODS:
+  - HYUIKit (0.1.0)
+
+DEPENDENCIES:
+  - HYUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYUIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYUIKit: 015d6e41c2f4756701a435514a6fec3362927e16
+
+COCOAPODS: 0.39.0

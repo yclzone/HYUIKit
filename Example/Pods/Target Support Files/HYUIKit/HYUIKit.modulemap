@@ -1,0 +1,6 @@
+framework module HYUIKit {
+  umbrella header "HYUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
