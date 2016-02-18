@@ -22,8 +22,25 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [self.tableView registerCellsWithClasses:@[[UITableViewCell class],
-                                               [HYTest1TableViewCell class]]];
+    [self.tableView hy_registerCellsWithClasses:@[[UITableViewCell class],
+                                                  [HYTest1TableViewCell class]]];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
+    
+    view.hy_x = 50;
+    view.hy_y = 100;
+    view.hy_height = 100;
+    view.hy_width = 20;
+    
+    view.backgroundColor = [UIColor redColor];
+    view.hy_borderColor = [UIColor blackColor];
+    view.hy_borderWidth = 2;
+    
+    [view hy_setupTopCornerRadius:5];
+    
+    [self.view addSubview:view];
+    
+    
     
     
 }
@@ -52,7 +69,7 @@
         return cell;
     } else if (indexPath.row == 1) {
         HYTest1TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HYTest1TableViewCell class])
-                                                                forIndexPath:indexPath];
+                                                                     forIndexPath:indexPath];
         cell.aSwitch.on = YES;
         return cell;
     }
@@ -66,7 +83,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    //
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert"
+                                                        message:@"This is a message."
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Cancel"
+                                              otherButtonTitles:@"OK", nil];
+//    [alertView setHy_buttonsClickedHandler:^(UIAlertView *alertView, NSInteger index) {
+//        NSLog(@"%zd", index);
+//    }];
+    
+    [alertView hy_showWithButtonsClickHandler:^(UIAlertView *alertView, NSInteger index) {
+        NSLog(@"%zd", index);
+    }];
 }
 
 @end

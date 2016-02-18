@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "HYUIKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HYUIKit."
+  s.summary          = "HYUIKit is a categories set of UIView, UITableView, UICollectionView, UITextField, UITextView."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+
+HYUIKit is a categories set of UIView, UITableView, UICollectionView, UITextField, UITextView. It make UIKit more easy to use by using less code.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HYUIKit"
+  s.homepage         = "https://github.com/yclzone/HYUIKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "yclzone" => "yclzone@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HYUIKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/yclzone/HYUIKit.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/yclzone'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
