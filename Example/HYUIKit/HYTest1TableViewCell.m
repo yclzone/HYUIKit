@@ -7,8 +7,10 @@
 //
 
 #import "HYTest1TableViewCell.h"
+#import <HYUIKit/HYUIKit.h>
 
-@interface HYTest1TableViewCell ()
+@interface HYTest1TableViewCell ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -16,12 +18,39 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    
+    self.textField.delegate = self;
+    
+    [self.textField setHy_didBeginEditingBlock:^(UITextField *field) {
+        NSLog(@"didBeginEditing");
+    }];
+    
+    [self.textField setHy_didEndEditingBlock:^(UITextField *field) {
+        NSLog(@"didEndEditing %@", field.text);
+    }];
+    
+    [self.textField setHy_shouldBeginEditingBlock:^BOOL(UITextField *field) {
+        if (!field.text.length) {
+            return YES;
+        } else if (field.text.length && [field.text isEqualToString:@"yclzone"]) {
+            return NO;
+        } else {
+            return YES;
+        }
+    }];
+    
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+#pragma mark - UITextFieldDelegate
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    NSLog(@"%s", __FUNCTION__);
 }
 
 @end

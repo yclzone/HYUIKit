@@ -15,5 +15,12 @@
 #import "UIView+HYStyle.h"
 
 #import "UIAlertView+HYBlocks.h"
+#import "UITextField+HYBlocks.h"
+#import "UITextField+HYLeftView.h"
+#import "UIView+Toast.h"
+#import "UITextView+Placeholder.h"
+#import "UIButton+HYCategory.h"
+#import "UIImage+HYCategory.h"
+#import "UIBarButtonItem+Badge.h"
 
 #endif /* HYUIKit_h */

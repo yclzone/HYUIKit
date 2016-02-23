@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -17,14 +18,23 @@
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FWW-6d-nb3">
                         <rect key="frame" x="136" y="6" width="51" height="31"/>
                     </switch>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pgC-09-jHa">
+                        <rect key="frame" x="193" y="7" width="97" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="pgC-09-jHa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0Ve-J8-A8v"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pgC-09-jHa" secondAttribute="trailing" constant="22" id="6Mx-1J-uAh"/>
                     <constraint firstItem="FWW-6d-nb3" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Eey-rE-Ks9"/>
                     <constraint firstItem="FWW-6d-nb3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="V7A-4o-6V3"/>
+                    <constraint firstItem="pgC-09-jHa" firstAttribute="leading" secondItem="FWW-6d-nb3" secondAttribute="trailing" constant="8" id="s5b-4x-XPM"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="aSwitch" destination="FWW-6d-nb3" id="ewO-Ye-k4y"/>
+                <outlet property="textField" destination="pgC-09-jHa" id="pxU-RL-tq6"/>
             </connections>
             <point key="canvasLocation" x="-104" y="148"/>
         </tableViewCell>

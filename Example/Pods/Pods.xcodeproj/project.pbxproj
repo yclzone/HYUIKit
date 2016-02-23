@@ -7,101 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011A612D843BDB226129ECBBB7B4B0AB /* UIAlertView+HYBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD42E4E74E39D79FAADD171ADA2F8F6 /* UIAlertView+HYBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ED1F14388D5E5B4377230C1811367B9 /* UIView+HYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BD2BA7AC5B1870EEFF068D815248CE /* UIView+HYFrame.m */; };
-		219E7EF9137446DAE13D81A8D4DE0291 /* HYUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF1C814AF2B174BCB197848A7092F7A /* HYUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134CA39FAAD8C275F22CFC777A7E0BDA /* HYUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EB80D380B09AFF7FB424DF463832B4B1 /* HYUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		251CDB6AB7E0552DFA5955598EA0D81F /* UIView+HYFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FE2B7D6A01F045FBE4980F5681B6C1 /* UIView+HYFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BDF213C61EA5DD38A5DD8B8CBCA400 /* Pods-HYUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBECE7D7C63BD0AEAA14F4DDD35FED03 /* Pods-HYUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2930712359CA7D07AD13A36EDB1F3256 /* UITableView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 447400654FAAE22E61E69A98F68096D9 /* UITableView+HYCellRegister.m */; };
-		35288DD45476C44EB5FA85720D8E723C /* HYUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE270795BBCAC95E8C44AE2B663E4B3 /* HYUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6230E716673904EB1E82A2C8740EBE84 /* UIView+HYStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5260401880236E994B5C51CA5EFD05 /* UIView+HYStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE813DD21A8CB238961CB8681CFC0A7 /* UIView+HYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E045ECA8E4F28E1BC4CDE360AD3CCDE7 /* UIView+HYStyle.m */; };
+		33829E9A6D55754D7F95894908AB892E /* UIImage+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E85639889025C3B4F5A8108D6ECF370B /* UIImage+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4ADAE0C58431F732E8CC49528717CE /* UITextField+HYLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA21C311B1AB8FB71538E847D89DD88 /* UITextField+HYLeftView.m */; };
+		3D688FB0A4F82D3DD53CA787DAF00A4E /* UITextField+HYLeftView.h in Headers */ = {isa = PBXBuildFile; fileRef = 801605E917D490517AEC0B68F3FF5F1D /* UITextField+HYLeftView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB7A5AEA773469CBD167BB0E379E77E /* UIView+HYStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDE66E81D031B96AE5C6BD4C3C4F1C6 /* UIView+HYStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4239C4B963AB8727152C1E472A700277 /* UIAlertView+HYBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 486E75157DB36AB2B6A5E4748C39F4EA /* UIAlertView+HYBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434F03F734DD666E27D8E5F293783472 /* UICollectionView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F7ED20ED89B81D81CEF34EB9740AD7 /* UICollectionView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD8274DDD97B993DAB04B7D3B3AD10D /* UITextField+HYBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 577EB74900C1D1BA2F2C6E2DA9A6CF17 /* UITextField+HYBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565C3FD990959ACFB190F13B406C67E7 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 202A61383DB4C959ACE6A39E94612467 /* UIBarButtonItem+Badge.m */; };
 		6C06E2B1C8483D36D6E53C5C740BFB9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		768CAF9A8A8C4E701E6F282985F8D0A4 /* UITableView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F320752A412573349161F2C3AB9D0DF /* UITableView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C506BDAE32C29A5C5DD2028ADFDDE73 /* UITextField+HYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A8C3E17C79FD4B3B2D1F57E63312F0 /* UITextField+HYBlocks.m */; };
+		6E4BA8CB1F9B634F6CC423BAED018E79 /* UIImage+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D41D09E25A858303391A649DF245F /* UIImage+HYCategory.m */; };
+		78030E556E7DA59336276DEF17D920A6 /* UITableView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 735080378538C3BD36AB57DA9E52612F /* UITableView+HYCellRegister.m */; };
 		7CFCCDBD657A0ACB893537CEC01190EF /* Pods-HYUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9211750D4EC42281F0BE72DA68091 /* Pods-HYUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8764CE4ECC7B684C6C37DA82AD1CF96D /* HYUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13077D668C5110F848EF02B2F452F663 /* HYUIKit.bundle */; };
+		8054EA4256FF44F397A54C26CE227708 /* UIBarButtonItem+Badge.h in Headers */ = {isa = PBXBuildFile; fileRef = 947E0EED0FF96C25D9ED9981E4713920 /* UIBarButtonItem+Badge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF25DCAFC469A98D5DE7D19C2C489C7 /* UIButton+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2456C07DC911A18777D147E9DC63F5C1 /* UIButton+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97D3FBB960E39C0A0CBA690B96E7D9EF /* Pods-HYUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDAEBBA84A32789F33029D5E19862CC /* Pods-HYUIKit_Tests-dummy.m */; };
-		A84E2D4126E7075C6E192EC807FE03C8 /* HYUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D044879B19806E97C07F00816B65368 /* HYUIKit-dummy.m */; };
-		AAC6BAB866080313E626D73694935AA4 /* UICollectionView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 065E2592A085E4C2CACB286773EE00DF /* UICollectionView+HYCellRegister.m */; };
-		ABC069277DFF3059D3C104CCA5712027 /* UIView+HYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0207CB97AC868F9CFA8DCE6FFD90A54 /* UIView+HYStyle.m */; };
-		B7F04F89A8FEDBDF6EEFE7FD877E667F /* UICollectionView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5757E8E8882C2F752190916219C58D /* UICollectionView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994137EEDBE1D3DFFED102ED7691ADDF /* UIAlertView+HYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDB96C7659602BFAA5D3EB98A242D0 /* UIAlertView+HYBlocks.m */; };
+		A074AEA4568161BE1227B806D0A26A71 /* UICollectionView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1DA695E59DB6A7B0EB77809006484E /* UICollectionView+HYCellRegister.m */; };
+		A580E3383A5E25228C5DB5616904D979 /* UITableView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D86B56C48E2B675786B3A61081EDF6 /* UITableView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC0E383A61592DBF43C22FF9D2BD5ED /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB351CDA5254552ECC4F7202EB5CA5F /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3FB762515DFA3E9EC70719653742BAA /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E17F9AD04D9CECB56F9C962D15C6FC4 /* UIView+Toast.m */; };
+		BA24C4B6D0F1465497CF2210E769E5D4 /* UIView+HYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1C51119AEB1699F7C57A5BFB1A1724 /* UIView+HYFrame.m */; };
 		BFCF000114D7DF41612FC9193E6B30A4 /* Pods-HYUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82C6FA65AAEC444847C78A4B506A2B3 /* Pods-HYUIKit_Example-dummy.m */; };
-		CA9D3DFF9B32E9ED7CE04C61BFD03308 /* UIView+HYFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D9BAD405FF1ABA9130C44D8FF1F0A4 /* UIView+HYFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C854434BE7771ECF577C07151DF676 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F17318D3D1E114777653DF5C0CD314 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB80A077612212AEF8E232880A84A244 /* HYUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE270795BBCAC95E8C44AE2B663E4B3 /* HYUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1F5DF3CCC9E5FC38E5E16DBDAD3BF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		DDC58A66863781BE834228ACBE9757B7 /* UIAlertView+HYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9AD0FE5F8E6EFA56DD6EA7024B726 /* UIAlertView+HYBlocks.m */; };
-		F42423285B8E4DA53FAB3EDAA62C1EA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E4A65547B6635002FF7561814C60D3ED /* HYUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13077D668C5110F848EF02B2F452F663 /* HYUIKit.bundle */; };
+		E9259A6F0741F7766A46EAAC079652AD /* HYUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D044879B19806E97C07F00816B65368 /* HYUIKit-dummy.m */; };
+		F0978338742D430CAEE4A4A2CCDDD07C /* UIButton+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE1731CD57ACDE7EA6AB0082405A2BA /* UIButton+HYCategory.m */; };
+		F97719A4C219210DED4630B64789F7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FB217469C2FD29C6A6078E7AA3F883AD /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0C80867ECCE3B3C2A681A47A652D6 /* UITextView+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62141F789C288D274EE7AE9C05B9641C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 309EDE687094F79F3C6DD6693F125D84;
-			remoteInfo = "HYUIKit-HYUIKit";
-		};
 		D456F0688017227148C158882763A11C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6545F430C68F333AA77B03B16FA0EFE4;
+			remoteGlobalIDString = D124F9949CD2CF2D2ED3F9C418062038;
 			remoteInfo = HYUIKit;
 		};
 		D9A2EE9DAAA469652A0DB798B933728A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6545F430C68F333AA77B03B16FA0EFE4;
+			remoteGlobalIDString = D124F9949CD2CF2D2ED3F9C418062038;
 			remoteInfo = HYUIKit;
+		};
+		E269AD998599ED405BFD48F898E02DD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BEED43E02AEFC6E829295087F665DCC;
+			remoteInfo = "HYUIKit-HYUIKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D86B56C48E2B675786B3A61081EDF6 /* UITableView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYCellRegister.h"; sourceTree = "<group>"; };
 		00FF24A112C9EA46186042E685E14F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		065E2592A085E4C2CACB286773EE00DF /* UICollectionView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HYCellRegister.m"; sourceTree = "<group>"; };
+		0E17F9AD04D9CECB56F9C962D15C6FC4 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		13077D668C5110F848EF02B2F452F663 /* HYUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EF1C814AF2B174BCB197848A7092F7A /* HYUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUIKit.h; sourceTree = "<group>"; };
-		1F320752A412573349161F2C3AB9D0DF /* UITableView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYCellRegister.h"; sourceTree = "<group>"; };
+		1A7D41D09E25A858303391A649DF245F /* UIImage+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HYCategory.m"; sourceTree = "<group>"; };
+		202A61383DB4C959ACE6A39E94612467 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
 		23EE6BDACBB4A6320468402740C1E1AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27A9AD0FE5F8E6EFA56DD6EA7024B726 /* UIAlertView+HYBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HYBlocks.m"; sourceTree = "<group>"; };
-		2AD42E4E74E39D79FAADD171ADA2F8F6 /* UIAlertView+HYBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HYBlocks.h"; sourceTree = "<group>"; };
+		2456C07DC911A18777D147E9DC63F5C1 /* UIButton+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+HYCategory.h"; sourceTree = "<group>"; };
 		2D11554D5CAA1B0ACF4F35051CE71084 /* Pods-HYUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35C17F6774AD71311A762AFDA2D7EE1F /* Pods-HYUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A3BE1A9A50D5CB211FA5FEF40CCDA38 /* HYUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-prefix.pch"; sourceTree = "<group>"; };
 		3D044879B19806E97C07F00816B65368 /* HYUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYUIKit-dummy.m"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43FFB1036A82B5D4D79CD130D3B488DC /* Pods-HYUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		447400654FAAE22E61E69A98F68096D9 /* UITableView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYCellRegister.m"; sourceTree = "<group>"; };
+		47A8C3E17C79FD4B3B2D1F57E63312F0 /* UITextField+HYBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HYBlocks.m"; sourceTree = "<group>"; };
+		486E75157DB36AB2B6A5E4748C39F4EA /* UIAlertView+HYBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HYBlocks.h"; sourceTree = "<group>"; };
 		4CFA5C55ADADBC52FBE4393C3292C981 /* Pods-HYUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit_Example-resources.sh"; sourceTree = "<group>"; };
+		577EB74900C1D1BA2F2C6E2DA9A6CF17 /* UITextField+HYBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+HYBlocks.h"; sourceTree = "<group>"; };
 		5B4128246CE543CCA070F6A70893817F /* Pods_HYUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5757E8E8882C2F752190916219C58D /* UICollectionView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HYCellRegister.h"; sourceTree = "<group>"; };
+		5BA21C311B1AB8FB71538E847D89DD88 /* UITextField+HYLeftView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HYLeftView.m"; sourceTree = "<group>"; };
+		5BB351CDA5254552ECC4F7202EB5CA5F /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		606E67A7A9B323C9A601EC6D297845E3 /* Pods-HYUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		67BD2BA7AC5B1870EEFF068D815248CE /* UIView+HYFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYFrame.m"; sourceTree = "<group>"; };
 		68CB0A7D4C6FB75F561EF9F87625E6BB /* Pods-HYUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C93F9B58A1E6978AADA27A759908522 /* Pods-HYUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DF9211750D4EC42281F0BE72DA68091 /* Pods-HYUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6F8B59DCCB2CF9DAE4D930D92ABF52A2 /* Pods-HYUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		735080378538C3BD36AB57DA9E52612F /* UITableView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYCellRegister.m"; sourceTree = "<group>"; };
 		7813555363F1932662F1BAA9B8EEE6EC /* Pods-HYUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B1DA695E59DB6A7B0EB77809006484E /* UICollectionView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HYCellRegister.m"; sourceTree = "<group>"; };
 		7F6C113A25DC12479C857B98B414B041 /* Pods-HYUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		7FDAEBBA84A32789F33029D5E19862CC /* Pods-HYUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		801605E917D490517AEC0B68F3FF5F1D /* UITextField+HYLeftView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+HYLeftView.h"; sourceTree = "<group>"; };
 		84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYUIKit.xcconfig; sourceTree = "<group>"; };
 		8AE270795BBCAC95E8C44AE2B663E4B3 /* HYUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-umbrella.h"; sourceTree = "<group>"; };
-		8D5260401880236E994B5C51CA5EFD05 /* UIView+HYStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HYStyle.h"; sourceTree = "<group>"; };
+		947E0EED0FF96C25D9ED9981E4713920 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		A2F17318D3D1E114777653DF5C0CD314 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		A5F7ED20ED89B81D81CEF34EB9740AD7 /* UICollectionView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HYCellRegister.h"; sourceTree = "<group>"; };
 		A82C6FA65AAEC444847C78A4B506A2B3 /* Pods-HYUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B0207CB97AC868F9CFA8DCE6FFD90A54 /* UIView+HYStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYStyle.m"; sourceTree = "<group>"; };
 		B40E3AA7DD06AB09245A2C3E49B21F3D /* Pods-HYUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8FE2B7D6A01F045FBE4980F5681B6C1 /* UIView+HYFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HYFrame.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAF61DB56E2A29EE1B2DC5D357BD9ED4 /* Pods-HYUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C8D9BAD405FF1ABA9130C44D8FF1F0A4 /* UIView+HYFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HYFrame.h"; sourceTree = "<group>"; };
+		BCEDB96C7659602BFAA5D3EB98A242D0 /* UIAlertView+HYBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HYBlocks.m"; sourceTree = "<group>"; };
+		BE1C51119AEB1699F7C57A5BFB1A1724 /* UIView+HYFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYFrame.m"; sourceTree = "<group>"; };
 		CB9312ED00844ABDE367C30538359FE3 /* Pods_HYUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBECE7D7C63BD0AEAA14F4DDD35FED03 /* Pods-HYUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DE1D0DE6F9BAA5953085F3A2D50DED93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E045ECA8E4F28E1BC4CDE360AD3CCDE7 /* UIView+HYStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYStyle.m"; sourceTree = "<group>"; };
 		E1B3D5E975599768825626E232903DDD /* Pods-HYUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E44764DA489EB62E89D030F336DCEDEE /* HYUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYUIKit.modulemap; sourceTree = "<group>"; };
 		E729D72EC46CAECBCDCDDA25380C2546 /* Pods-HYUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E85639889025C3B4F5A8108D6ECF370B /* UIImage+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+HYCategory.h"; sourceTree = "<group>"; };
+		EB80D380B09AFF7FB424DF463832B4B1 /* HYUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUIKit.h; sourceTree = "<group>"; };
+		EBE1731CD57ACDE7EA6AB0082405A2BA /* UIButton+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HYCategory.m"; sourceTree = "<group>"; };
+		EDDE66E81D031B96AE5C6BD4C3C4F1C6 /* UIView+HYStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HYStyle.h"; sourceTree = "<group>"; };
+		F5D0C80867ECCE3B3C2A681A47A652D6 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		F897D168D705BCCEF632DA6490D76E87 /* HYUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58487A383F9921084BFB82F2B3EE728D /* Frameworks */ = {
+		343F1D82CC958E326B11868622AC5B4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,19 +144,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C22F8C223ED4ACB2E05C0AA53A74E6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F42423285B8E4DA53FAB3EDAA62C1EA7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D2209B89FE6FB893001FF623B3C1F7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C06E2B1C8483D36D6E53C5C740BFB9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B2C3F4796CCE9209DA3BADF97312E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97719A4C219210DED4630B64789F7CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,28 +172,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		041AAA3F0DEF56D775343605FD13BE57 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1EF1C814AF2B174BCB197848A7092F7A /* HYUIKit.h */,
-				2AD42E4E74E39D79FAADD171ADA2F8F6 /* UIAlertView+HYBlocks.h */,
-				27A9AD0FE5F8E6EFA56DD6EA7024B726 /* UIAlertView+HYBlocks.m */,
-				5B5757E8E8882C2F752190916219C58D /* UICollectionView+HYCellRegister.h */,
-				065E2592A085E4C2CACB286773EE00DF /* UICollectionView+HYCellRegister.m */,
-				1F320752A412573349161F2C3AB9D0DF /* UITableView+HYCellRegister.h */,
-				447400654FAAE22E61E69A98F68096D9 /* UITableView+HYCellRegister.m */,
-				C8D9BAD405FF1ABA9130C44D8FF1F0A4 /* UIView+HYFrame.h */,
-				67BD2BA7AC5B1870EEFF068D815248CE /* UIView+HYFrame.m */,
-				8D5260401880236E994B5C51CA5EFD05 /* UIView+HYStyle.h */,
-				B0207CB97AC868F9CFA8DCE6FFD90A54 /* UIView+HYStyle.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		14A6460AC3188CB3CB0A25453C103513 /* HYUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C2C40A24C525BEAACB67D3504CFF882D /* Pod */,
+				F096489D00FDCF80DC51168878FA5359 /* Pod */,
 				E07398CF263D332809978A650387A719 /* Support Files */,
 			);
 			name = HYUIKit;
@@ -188,6 +198,38 @@
 			);
 			name = "Pods-HYUIKit_Tests";
 			path = "Target Support Files/Pods-HYUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		2E32236C6C309DD95708D1C8943A0E27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB80D380B09AFF7FB424DF463832B4B1 /* HYUIKit.h */,
+				486E75157DB36AB2B6A5E4748C39F4EA /* UIAlertView+HYBlocks.h */,
+				BCEDB96C7659602BFAA5D3EB98A242D0 /* UIAlertView+HYBlocks.m */,
+				947E0EED0FF96C25D9ED9981E4713920 /* UIBarButtonItem+Badge.h */,
+				202A61383DB4C959ACE6A39E94612467 /* UIBarButtonItem+Badge.m */,
+				2456C07DC911A18777D147E9DC63F5C1 /* UIButton+HYCategory.h */,
+				EBE1731CD57ACDE7EA6AB0082405A2BA /* UIButton+HYCategory.m */,
+				A5F7ED20ED89B81D81CEF34EB9740AD7 /* UICollectionView+HYCellRegister.h */,
+				7B1DA695E59DB6A7B0EB77809006484E /* UICollectionView+HYCellRegister.m */,
+				E85639889025C3B4F5A8108D6ECF370B /* UIImage+HYCategory.h */,
+				1A7D41D09E25A858303391A649DF245F /* UIImage+HYCategory.m */,
+				00D86B56C48E2B675786B3A61081EDF6 /* UITableView+HYCellRegister.h */,
+				735080378538C3BD36AB57DA9E52612F /* UITableView+HYCellRegister.m */,
+				577EB74900C1D1BA2F2C6E2DA9A6CF17 /* UITextField+HYBlocks.h */,
+				47A8C3E17C79FD4B3B2D1F57E63312F0 /* UITextField+HYBlocks.m */,
+				801605E917D490517AEC0B68F3FF5F1D /* UITextField+HYLeftView.h */,
+				5BA21C311B1AB8FB71538E847D89DD88 /* UITextField+HYLeftView.m */,
+				A2F17318D3D1E114777653DF5C0CD314 /* UITextView+Placeholder.h */,
+				F5D0C80867ECCE3B3C2A681A47A652D6 /* UITextView+Placeholder.m */,
+				B8FE2B7D6A01F045FBE4980F5681B6C1 /* UIView+HYFrame.h */,
+				BE1C51119AEB1699F7C57A5BFB1A1724 /* UIView+HYFrame.m */,
+				EDDE66E81D031B96AE5C6BD4C3C4F1C6 /* UIView+HYStyle.h */,
+				E045ECA8E4F28E1BC4CDE360AD3CCDE7 /* UIView+HYStyle.m */,
+				5BB351CDA5254552ECC4F7202EB5CA5F /* UIView+Toast.h */,
+				0E17F9AD04D9CECB56F9C962D15C6FC4 /* UIView+Toast.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		4C3926A93C6189049350CB1EBDE525B3 /* Development Pods */ = {
@@ -254,14 +296,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C2C40A24C525BEAACB67D3504CFF882D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				041AAA3F0DEF56D775343605FD13BE57 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		E07398CF263D332809978A650387A719 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,20 +310,35 @@
 			path = "Example/Pods/Target Support Files/HYUIKit";
 			sourceTree = "<group>";
 		};
+		F096489D00FDCF80DC51168878FA5359 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E32236C6C309DD95708D1C8943A0E27 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		277AA721F95167F25F99478458B4073C /* Headers */ = {
+		6B5C6F9DCA22A5A59A2D8A4F1BA77C31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35288DD45476C44EB5FA85720D8E723C /* HYUIKit-umbrella.h in Headers */,
-				219E7EF9137446DAE13D81A8D4DE0291 /* HYUIKit.h in Headers */,
-				011A612D843BDB226129ECBBB7B4B0AB /* UIAlertView+HYBlocks.h in Headers */,
-				B7F04F89A8FEDBDF6EEFE7FD877E667F /* UICollectionView+HYCellRegister.h in Headers */,
-				768CAF9A8A8C4E701E6F282985F8D0A4 /* UITableView+HYCellRegister.h in Headers */,
-				CA9D3DFF9B32E9ED7CE04C61BFD03308 /* UIView+HYFrame.h in Headers */,
-				6230E716673904EB1E82A2C8740EBE84 /* UIView+HYStyle.h in Headers */,
+				CB80A077612212AEF8E232880A84A244 /* HYUIKit-umbrella.h in Headers */,
+				134CA39FAAD8C275F22CFC777A7E0BDA /* HYUIKit.h in Headers */,
+				4239C4B963AB8727152C1E472A700277 /* UIAlertView+HYBlocks.h in Headers */,
+				8054EA4256FF44F397A54C26CE227708 /* UIBarButtonItem+Badge.h in Headers */,
+				8BF25DCAFC469A98D5DE7D19C2C489C7 /* UIButton+HYCategory.h in Headers */,
+				434F03F734DD666E27D8E5F293783472 /* UICollectionView+HYCellRegister.h in Headers */,
+				33829E9A6D55754D7F95894908AB892E /* UIImage+HYCategory.h in Headers */,
+				A580E3383A5E25228C5DB5616904D979 /* UITableView+HYCellRegister.h in Headers */,
+				4BD8274DDD97B993DAB04B7D3B3AD10D /* UITextField+HYBlocks.h in Headers */,
+				3D688FB0A4F82D3DD53CA787DAF00A4E /* UITextField+HYLeftView.h in Headers */,
+				C3C854434BE7771ECF577C07151DF676 /* UITextView+Placeholder.h in Headers */,
+				251CDB6AB7E0552DFA5955598EA0D81F /* UIView+HYFrame.h in Headers */,
+				3FB7A5AEA773469CBD167BB0E379E77E /* UIView+HYStyle.h in Headers */,
+				ACC0E383A61592DBF43C22FF9D2BD5ED /* UIView+Toast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +361,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		309EDE687094F79F3C6DD6693F125D84 /* HYUIKit-HYUIKit */ = {
+		2BEED43E02AEFC6E829295087F665DCC /* HYUIKit-HYUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E455FFE1B4FBBE25F73F7393396405B1 /* Build configuration list for PBXNativeTarget "HYUIKit-HYUIKit" */;
+			buildConfigurationList = BD48E3A32E1F4DA3FE1FD7D763F782C3 /* Build configuration list for PBXNativeTarget "HYUIKit-HYUIKit" */;
 			buildPhases = (
-				AAFD6634DE89618FCE5D47875CC28E84 /* Sources */,
-				58487A383F9921084BFB82F2B3EE728D /* Frameworks */,
-				AE3FF4C475DFEF8D65856AC7F6A52E2E /* Resources */,
+				4200B7D13DC6B2C140CC037EB57D0CBC /* Sources */,
+				343F1D82CC958E326B11868622AC5B4A /* Frameworks */,
+				35CF22A3120FA208BC4B178BE8FCC6A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,25 +396,6 @@
 			productReference = CB9312ED00844ABDE367C30538359FE3 /* Pods_HYUIKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6545F430C68F333AA77B03B16FA0EFE4 /* HYUIKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A03D2C837C40A57A455FD1063B763DCC /* Build configuration list for PBXNativeTarget "HYUIKit" */;
-			buildPhases = (
-				398BC02B0BA3D07AD16653F43AE43901 /* Sources */,
-				7C22F8C223ED4ACB2E05C0AA53A74E6B /* Frameworks */,
-				B5668905DBE67FDDE4C54F2009168F73 /* Resources */,
-				277AA721F95167F25F99478458B4073C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD0F17812098EF08E1F832B7E55421E1 /* PBXTargetDependency */,
-			);
-			name = HYUIKit;
-			productName = HYUIKit;
-			productReference = F897D168D705BCCEF632DA6490D76E87 /* HYUIKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		95913C044F3CDE9ABF7BB7BA63D0E909 /* Pods-HYUIKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2706D4D03BF675BB079CFA7E59D74B70 /* Build configuration list for PBXNativeTarget "Pods-HYUIKit_Example" */;
@@ -382,6 +412,25 @@
 			name = "Pods-HYUIKit_Example";
 			productName = "Pods-HYUIKit_Example";
 			productReference = 5B4128246CE543CCA070F6A70893817F /* Pods_HYUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D124F9949CD2CF2D2ED3F9C418062038 /* HYUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA19EF78112A5D1F94649F4AD5C9376 /* Build configuration list for PBXNativeTarget "HYUIKit" */;
+			buildPhases = (
+				EF7ED8968C07A6023432911A7353E62A /* Sources */,
+				D6B2C3F4796CCE9209DA3BADF97312E7 /* Frameworks */,
+				7068BC9F77FCC19F2574D1F2FC6667E0 /* Resources */,
+				6B5C6F9DCA22A5A59A2D8A4F1BA77C31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4321E7CB51F885371152552DA6D873D /* PBXTargetDependency */,
+			);
+			name = HYUIKit;
+			productName = HYUIKit;
+			productReference = F897D168D705BCCEF632DA6490D76E87 /* HYUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -405,8 +454,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6545F430C68F333AA77B03B16FA0EFE4 /* HYUIKit */,
-				309EDE687094F79F3C6DD6693F125D84 /* HYUIKit-HYUIKit */,
+				D124F9949CD2CF2D2ED3F9C418062038 /* HYUIKit */,
+				2BEED43E02AEFC6E829295087F665DCC /* HYUIKit-HYUIKit */,
 				95913C044F3CDE9ABF7BB7BA63D0E909 /* Pods-HYUIKit_Example */,
 				5E886C0C14B40A4172DAF226DD155A98 /* Pods-HYUIKit_Tests */,
 			);
@@ -414,18 +463,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE3FF4C475DFEF8D65856AC7F6A52E2E /* Resources */ = {
+		35CF22A3120FA208BC4B178BE8FCC6A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5668905DBE67FDDE4C54F2009168F73 /* Resources */ = {
+		7068BC9F77FCC19F2574D1F2FC6667E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8764CE4ECC7B684C6C37DA82AD1CF96D /* HYUIKit.bundle in Resources */,
+				E4A65547B6635002FF7561814C60D3ED /* HYUIKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,23 +497,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		398BC02B0BA3D07AD16653F43AE43901 /* Sources */ = {
+		4200B7D13DC6B2C140CC037EB57D0CBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84E2D4126E7075C6E192EC807FE03C8 /* HYUIKit-dummy.m in Sources */,
-				DDC58A66863781BE834228ACBE9757B7 /* UIAlertView+HYBlocks.m in Sources */,
-				AAC6BAB866080313E626D73694935AA4 /* UICollectionView+HYCellRegister.m in Sources */,
-				2930712359CA7D07AD13A36EDB1F3256 /* UITableView+HYCellRegister.m in Sources */,
-				1ED1F14388D5E5B4377230C1811367B9 /* UIView+HYFrame.m in Sources */,
-				ABC069277DFF3059D3C104CCA5712027 /* UIView+HYStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFD6634DE89618FCE5D47875CC28E84 /* Sources */ = {
+		EF7ED8968C07A6023432911A7353E62A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9259A6F0741F7766A46EAAC079652AD /* HYUIKit-dummy.m in Sources */,
+				994137EEDBE1D3DFFED102ED7691ADDF /* UIAlertView+HYBlocks.m in Sources */,
+				565C3FD990959ACFB190F13B406C67E7 /* UIBarButtonItem+Badge.m in Sources */,
+				F0978338742D430CAEE4A4A2CCDDD07C /* UIButton+HYCategory.m in Sources */,
+				A074AEA4568161BE1227B806D0A26A71 /* UICollectionView+HYCellRegister.m in Sources */,
+				6E4BA8CB1F9B634F6CC423BAED018E79 /* UIImage+HYCategory.m in Sources */,
+				78030E556E7DA59336276DEF17D920A6 /* UITableView+HYCellRegister.m in Sources */,
+				6C506BDAE32C29A5C5DD2028ADFDDE73 /* UITextField+HYBlocks.m in Sources */,
+				3D4ADAE0C58431F732E8CC49528717CE /* UITextField+HYLeftView.m in Sources */,
+				FB217469C2FD29C6A6078E7AA3F883AD /* UITextView+Placeholder.m in Sources */,
+				BA24C4B6D0F1465497CF2210E769E5D4 /* UIView+HYFrame.m in Sources */,
+				2CE813DD21A8CB238961CB8681CFC0A7 /* UIView+HYStyle.m in Sources */,
+				B3FB762515DFA3E9EC70719653742BAA /* UIView+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,24 +530,51 @@
 		C9373A50C90E7FAFA682284B41FB5771 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYUIKit;
-			target = 6545F430C68F333AA77B03B16FA0EFE4 /* HYUIKit */;
+			target = D124F9949CD2CF2D2ED3F9C418062038 /* HYUIKit */;
 			targetProxy = D456F0688017227148C158882763A11C /* PBXContainerItemProxy */;
-		};
-		CD0F17812098EF08E1F832B7E55421E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "HYUIKit-HYUIKit";
-			target = 309EDE687094F79F3C6DD6693F125D84 /* HYUIKit-HYUIKit */;
-			targetProxy = 62141F789C288D274EE7AE9C05B9641C /* PBXContainerItemProxy */;
 		};
 		D4A6B6BDDFB2105FE094A7E6357FB44C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYUIKit;
-			target = 6545F430C68F333AA77B03B16FA0EFE4 /* HYUIKit */;
+			target = D124F9949CD2CF2D2ED3F9C418062038 /* HYUIKit */;
 			targetProxy = D9A2EE9DAAA469652A0DB798B933728A /* PBXContainerItemProxy */;
+		};
+		E4321E7CB51F885371152552DA6D873D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HYUIKit-HYUIKit";
+			target = 2BEED43E02AEFC6E829295087F665DCC /* HYUIKit-HYUIKit */;
+			targetProxy = E269AD998599ED405BFD48F898E02DD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		006F39AE070D9AB6F194A63D2584FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYUIKit/HYUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HYUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		025032BBC1A91644E24F6BAA55E9F988 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F8B59DCCB2CF9DAE4D930D92ABF52A2 /* Pods-HYUIKit_Example.debug.xcconfig */;
@@ -595,34 +678,7 @@
 			};
 			name = Debug;
 		};
-		3ECA3CD4071BFF8A69C315ABBBF0E4E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYUIKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYUIKit/HYUIKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HYUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A05CD622297FEFDEBD7A8DBC2723816C /* Debug */ = {
+		571ED4F4A76991992B111CABC4030238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
 			buildSettings = {
@@ -634,7 +690,7 @@
 			};
 			name = Debug;
 		};
-		AFA80131BC932FC37D8CD0FF563BB4F7 /* Release */ = {
+		AFFFDAA8C233DB9C9D2DA82438BE2562 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
 			buildSettings = {
@@ -645,33 +701,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		B50887C1E6B82C9F37DC25F802A52CA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYUIKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYUIKit/HYUIKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HYUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C07661D619D3C6B21AFA0BF6209FC4EC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -702,6 +731,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C9737778FFEDECD275A4C03FE816DBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D7AF7C005B1BE5A62C0646D265A8D3 /* HYUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYUIKit/HYUIKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HYUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D2BA516074C37B25353F26EA668C85D3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -793,20 +849,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A03D2C837C40A57A455FD1063B763DCC /* Build configuration list for PBXNativeTarget "HYUIKit" */ = {
+		BD48E3A32E1F4DA3FE1FD7D763F782C3 /* Build configuration list for PBXNativeTarget "HYUIKit-HYUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B50887C1E6B82C9F37DC25F802A52CA9 /* Debug */,
-				3ECA3CD4071BFF8A69C315ABBBF0E4E0 /* Release */,
+				571ED4F4A76991992B111CABC4030238 /* Debug */,
+				AFFFDAA8C233DB9C9D2DA82438BE2562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E455FFE1B4FBBE25F73F7393396405B1 /* Build configuration list for PBXNativeTarget "HYUIKit-HYUIKit" */ = {
+		CEA19EF78112A5D1F94649F4AD5C9376 /* Build configuration list for PBXNativeTarget "HYUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A05CD622297FEFDEBD7A8DBC2723816C /* Debug */,
-				AFA80131BC932FC37D8CD0FF563BB4F7 /* Release */,
+				C9737778FFEDECD275A4C03FE816DBC2 /* Debug */,
+				006F39AE070D9AB6F194A63D2584FCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
