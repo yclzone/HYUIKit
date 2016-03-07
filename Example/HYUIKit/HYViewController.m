@@ -40,7 +40,14 @@
     
     [self.view addSubview:view];
     
+    UISwitch *sw = [UISwitch new];
     
+    [sw handleControlEvent:UIControlEventValueChanged
+                 withBlock:^{
+                     NSLog(@"xxx");
+                 }];
+    
+    [self.view addSubview:sw];
     
     
 }

@@ -22,5 +22,6 @@
 #import "UIButton+HYCategory.h"
 #import "UIImage+HYCategory.h"
 #import "UIBarButtonItem+Badge.h"
+#import "UIControl+HY.h"
 
 #endif /* HYUIKit_h */

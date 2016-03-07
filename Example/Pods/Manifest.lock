@@ -1,14 +1,14 @@
 PODS:
-  - HYUIKit (0.1.0)
+  - HYUIKit (0.2.0)
 
 DEPENDENCIES:
   - HYUIKit (from `../`)
 
 EXTERNAL SOURCES:
   HYUIKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HYUIKit: 015d6e41c2f4756701a435514a6fec3362927e16
+  HYUIKit: 41224b2abdd419cfe73ea5caa8b74c322a31381d
 
 COCOAPODS: 0.39.0
