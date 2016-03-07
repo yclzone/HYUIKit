@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0395CB9A7A56916A99AA2CD73A5D3B08 /* UITextField+HYLeftView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2575D4EABDF9362A70831375453767 /* UITextField+HYLeftView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C6DDC91C8D613F000EF57F /* UINavigationBar+HY.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C6DDC71C8D613F000EF57F /* UINavigationBar+HY.h */; };
+		03C6DDCA1C8D613F000EF57F /* UINavigationBar+HY.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C6DDC81C8D613F000EF57F /* UINavigationBar+HY.m */; };
 		18DDA94E51E3DE807407939B6571DA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		1C4904F22FA7DCADF144ACD2F25DD0B6 /* UIButton+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A64F93BC639756D5220CCD7F9135BE /* UIButton+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E397EE8B8842A9855536D2601CC825B /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = A478312819A14106FDB9C1545009EE2B /* UIBarButtonItem+Badge.m */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		00FF24A112C9EA46186042E685E14F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C6DDC71C8D613F000EF57F /* UINavigationBar+HY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HY.h"; sourceTree = "<group>"; };
+		03C6DDC81C8D613F000EF57F /* UINavigationBar+HY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HY.m"; sourceTree = "<group>"; };
 		0E3020114AF616DF9B2E04173ED95C69 /* UIControl+HY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HY.m"; sourceTree = "<group>"; };
 		1300C73701DB48A1F30CEF629F8E1177 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		13077D668C5110F848EF02B2F452F663 /* HYUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -293,6 +297,8 @@
 		E8B0EF95D3D31C3AA1892C60DEC1A34E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				03C6DDC71C8D613F000EF57F /* UINavigationBar+HY.h */,
+				03C6DDC81C8D613F000EF57F /* UINavigationBar+HY.m */,
 				2B27BE80983BC7D341F34D0EC90CD0DE /* HYUIKit.h */,
 				B1967B6500746432723C8CEDD7F392E6 /* UIAlertView+HYBlocks.h */,
 				3862CC651BC783DF3A9149C0A7014BAA /* UIAlertView+HYBlocks.m */,
@@ -356,6 +362,7 @@
 				D60B20AE01634B1899B372B345C66BFD /* UIControl+HY.h in Headers */,
 				D602401800C549C2E4861CBD9E5FDA0A /* UIImage+HYCategory.h in Headers */,
 				E8227449110C340BC5E45FDBEB7CFD19 /* UITableView+HYCellRegister.h in Headers */,
+				03C6DDC91C8D613F000EF57F /* UINavigationBar+HY.h in Headers */,
 				25161E6BA9BC4F9BDC5D4883041D55AE /* UITextField+HYBlocks.h in Headers */,
 				0395CB9A7A56916A99AA2CD73A5D3B08 /* UITextField+HYLeftView.h in Headers */,
 				F0120DA5125F8A4168652B91BD4F0454 /* UITextView+Placeholder.h in Headers */,
@@ -521,6 +528,7 @@
 				3F330EF06D08FDD5E1598D7A72EC757C /* UITextView+Placeholder.m in Sources */,
 				E4301449665CD4679E265717B76CC08D /* UIView+HYFrame.m in Sources */,
 				3B89120AEBAA32DEB53AEE5C95157367 /* UIView+HYStyle.m in Sources */,
+				03C6DDCA1C8D613F000EF57F /* UINavigationBar+HY.m in Sources */,
 				C1EC5C53CC9F25EAF35469F3D46221C9 /* UIView+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
