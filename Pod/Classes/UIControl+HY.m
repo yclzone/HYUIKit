@@ -23,7 +23,7 @@ static const char JWassociatedkey;
 - (void)callActionBlock:(id)sender {
     HYActionBlock block = objc_getAssociatedObject(self, &JWassociatedkey);
     if (block) {
-        block();
+        block(self);
     }
 }
 

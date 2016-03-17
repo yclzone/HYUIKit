@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^HYActionBlock) ();
+typedef void(^HYActionBlock) (UIControl *control);
 
 @interface UIControl (HY) 
 

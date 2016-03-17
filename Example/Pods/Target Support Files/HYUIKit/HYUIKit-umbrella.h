@@ -7,6 +7,7 @@
 #import "UICollectionView+HYCellRegister.h"
 #import "UIControl+HY.h"
 #import "UIImage+HYCategory.h"
+#import "UINavigationBar+HY.h"
 #import "UITableView+HYCellRegister.h"
 #import "UITextField+HYBlocks.h"
 #import "UITextField+HYLeftView.h"

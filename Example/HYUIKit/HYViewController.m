@@ -43,8 +43,8 @@
     UISwitch *sw = [UISwitch new];
     
     [sw handleControlEvent:UIControlEventValueChanged
-                 withBlock:^{
-                     NSLog(@"xxx");
+                 withBlock:^(UIControl *control) {
+//                     nslo
                  }];
     
     [self.view addSubview:sw];
