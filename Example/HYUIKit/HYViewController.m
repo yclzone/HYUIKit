@@ -50,6 +50,8 @@
     [self.view addSubview:sw];
     
     
+    self.view.backgroundColor = kRGB16(0xFFFFFF, 1);
+    
 }
 
 - (void)didReceiveMemoryWarning

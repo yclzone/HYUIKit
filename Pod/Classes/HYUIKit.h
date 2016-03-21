@@ -24,5 +24,6 @@
 #import "UIBarButtonItem+Badge.h"
 #import "UIControl+HY.h"
 #import "UINavigationBar+HY.h"
+#import "UIColor+HYRGB.h"
 
 #endif /* HYUIKit_h */

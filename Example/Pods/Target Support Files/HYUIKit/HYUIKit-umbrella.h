@@ -5,6 +5,7 @@
 #import "UIBarButtonItem+Badge.h"
 #import "UIButton+HYCategory.h"
 #import "UICollectionView+HYCellRegister.h"
+#import "UIColor+HYRGB.h"
 #import "UIControl+HY.h"
 #import "UIImage+HYCategory.h"
 #import "UINavigationBar+HY.h"
