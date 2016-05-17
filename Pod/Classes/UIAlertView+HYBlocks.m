@@ -10,13 +10,21 @@
 #import <objc/runtime.h>
 
 static const void *HYAlertViewDelegateKey = &HYAlertViewDelegateKey;
+
 static const void *HYAlertViewButtonsClickedHandlerKey = &HYAlertViewButtonsClickedHandlerKey;
+static const void *HYAlertViewDismissHandlerKey = &HYAlertViewDismissHandlerKey;
 
 @implementation UIAlertView (HYBlocks)
 
 #pragma mark - Public Methods
 - (void)hy_showWithButtonsClickHandler:(HYAlertViewClickButtonHandler)handler {
     self.hy_buttonsClickedHandler = handler;
+    [self show];
+}
+
+- (void)hy_showWithDismissHandler:(HYAlertViewDismissHandler)handler {
+    self.hy_dismissHandler = handler;
+    
     [self show];
 }
 
@@ -43,6 +51,18 @@ static const void *HYAlertViewButtonsClickedHandlerKey = &HYAlertViewButtonsClic
     }
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    HYAlertViewDismissHandler clickHandler = alertView.hy_dismissHandler;
+    if (clickHandler) {
+        clickHandler(alertView, buttonIndex);
+    }
+    
+    id delegate = objc_getAssociatedObject(self, HYAlertViewDelegateKey);
+    if ([delegate respondsToSelector:@selector(alertView:didDismissWithButtonIndex:)]) {
+        [delegate alertView:alertView didDismissWithButtonIndex:buttonIndex];
+    }
+}
+
 #pragma mark - Getter && Setter
 - (void)setHy_buttonsClickedHandler:(HYAlertViewClickButtonHandler)hy_buttonsClickedHandler {
     [self setupSelfAsDelegate];
@@ -51,6 +71,15 @@ static const void *HYAlertViewButtonsClickedHandlerKey = &HYAlertViewButtonsClic
 
 - (HYAlertViewClickButtonHandler)hy_buttonsClickedHandler {
     return objc_getAssociatedObject(self, HYAlertViewButtonsClickedHandlerKey);
+}
+
+- (void)setHy_dismissHandler:(HYAlertViewDismissHandler)hy_dismissHandler {
+    [self setupSelfAsDelegate];
+    objc_setAssociatedObject(self, HYAlertViewDismissHandlerKey, hy_dismissHandler, OBJC_ASSOCIATION_COPY);
+}
+
+- (HYAlertViewDismissHandler)hy_dismissHandler {
+    return objc_getAssociatedObject(self, HYAlertViewDismissHandlerKey);
 }
 
 @end

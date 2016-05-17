@@ -101,7 +101,7 @@
 //        NSLog(@"%zd", index);
 //    }];
     
-    [alertView hy_showWithButtonsClickHandler:^(UIAlertView *alertView, NSInteger index) {
+    [alertView hy_showWithDismissHandler:^(UIAlertView *alertView, NSInteger index) {
         NSLog(@"%zd", index);
     }];
 }
