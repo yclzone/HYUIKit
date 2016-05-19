@@ -24,7 +24,6 @@ static const void *HYAlertViewDismissHandlerKey = &HYAlertViewDismissHandlerKey;
 
 - (void)hy_showWithDismissHandler:(HYAlertViewDismissHandler)handler {
     self.hy_dismissHandler = handler;
-    
     [self show];
 }
 

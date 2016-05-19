@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^HYAlertViewClickButtonHandler)(UIAlertView *alertView, NSInteger index);
-typedef void(^HYAlertViewDismissHandler)(UIAlertView *alertView, NSInteger index);
+typedef void(^HYAlertViewClickButtonHandler)(UIAlertView *alertView, NSInteger buttonIndex);
+typedef void(^HYAlertViewDismissHandler)(UIAlertView *alertView, NSInteger buttonIndex);
 
 @interface UIAlertView (HYBlocks)
 
