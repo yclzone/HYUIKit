@@ -1,5 +1,5 @@
 PODS:
-  - HYUIKit (0.4.2)
+  - HYUIKit (0.5.2)
 
 DEPENDENCIES:
   - HYUIKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYUIKit: 0ecfca10c7aa61eab8fdf8d8480b2a065b9ecc7a
+  HYUIKit: f47c9e6ce2b3adf15f9495cb1544f4ae1a76e395
 
 PODFILE CHECKSUM: e1817e5c789567af2e45fb77b235cd6c5d51e7bb
 

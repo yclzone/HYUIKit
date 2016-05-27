@@ -1,6 +1,6 @@
 {
   "name": "HYUIKit",
-  "version": "0.4.2",
+  "version": "0.5.2",
   "summary": "HYUIKit is a categories set of UIView, UITableView, UICollectionView, UITextField, UITextView.",
   "description": "HYUIKit is a categories set of UIView, UITableView, UICollectionView, UITextField, UITextView. It make UIKit more easy to use by using less code.",
   "homepage": "https://github.com/yclzone/HYUIKit",
@@ -10,16 +10,11 @@
   },
   "source": {
     "git": "https://github.com/yclzone/HYUIKit.git",
-    "tag": "0.4.2"
+    "tag": "0.5.2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "HYUIKit": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*"
 }

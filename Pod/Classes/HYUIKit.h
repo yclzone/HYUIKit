@@ -13,7 +13,7 @@
 #import "UICollectionView+HYCellRegister.h"
 #import "UIView+HYFrame.h"
 #import "UIView+HYStyle.h"
-
+#import "UIViewController+HYTextFieldEvent.h"
 #import "UIAlertView+HYBlocks.h"
 #import "UITextField+HYBlocks.h"
 #import "UITextField+HYLeftView.h"
