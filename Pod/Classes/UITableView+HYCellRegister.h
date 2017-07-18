@@ -10,4 +10,5 @@
 
 @interface UITableView (HYCellRegister)
 - (void)hy_registerCellsWithClasses:(NSArray<Class> *)classes;
+- (void)hy_registerHeaderFooterViewsWithClasses:(NSArray<Class> *)classes;
 @end
